@@ -32,6 +32,10 @@ mvn test -Dtest=UsersRunner
 ## Evidencia
 Reporte de ejecución de Karate en `target/karate-reports/`.
 
+![Karate Evidence 1](evidence/Karate-1.png)
+
+![Karate Evidence 2](evidence/Karate-2.png)
+
 ## Nota
 El proyecto usa `karate-config.js` para definir `petstoreBaseUrl`.
 La convención actual es un feature por escenario principal, con su runner correspondiente en users.
