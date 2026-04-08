@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>template</groupId>
-    <artifactId>asdd-karate-template</artifactId>
+    <groupId>petstore</groupId>
+    <artifactId>petstore-api-karate-test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ASDD Karate Template</name>
-    <description>Reusable Karate API testing template with ASDD workflow</description>
+    <name>Petstore API Karate Test</name>
+    <description>Karate API test automation for the Petstore users service with ASDD workflow</description>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
