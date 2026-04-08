@@ -5,7 +5,8 @@ function fn() {
 
   var config = {
     env: env,
-    baseUrl: 'https://automationexercise.com/api'
+    baseUrl: 'https://automationexercise.com/api',
+    petstoreBaseUrl: 'https://petstore.swagger.io/v2'
   };
 
   if (env === 'local') {

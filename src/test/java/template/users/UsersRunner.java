@@ -13,6 +13,11 @@ class UsersRunner {
 
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("users-crud").relativeTo(getClass());
+        return Karate.run(
+            "petstore_user_create",
+            "petstore_user_get",
+            "petstore_user_update",
+            "petstore_user_delete"
+        ).relativeTo(getClass());
     }
 }
